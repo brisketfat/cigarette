@@ -14,3 +14,9 @@ Predictable:
 Accessible:
 
 Cigarette uses standard compliant HTML and CSS, including label tags!
+
+Compatible:
+
+cigarette is tested in Microsoft Internet Explorer, Google Chrome and Mozilla Firefox.
+
+![compatible](https://github.com/sinerasis/sharedimages/blob/master/cigarette/compatible.png)
