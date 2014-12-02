@@ -1,0 +1,100 @@
+/* a basic reset */
+html, body, div, img, form, label, input, ul, ol, li, a {
+    padding: 0; margin: 0; border: 0;
+}
+ul {
+    list-style-type: none;
+}
+
+/* "global" styles */
+body {
+    background-color: #fff;
+    color: #333;
+    font-family: verdana, sans-serif;
+    font-size: 75%;
+}
+
+body > div {
+    margin: auto;
+    width: 100%;
+    
+}
+
+a {
+    color: #0F4FB5;
+    text-decoration: none;
+}
+
+.error {
+    color: #A44200;
+}
+
+/* login form styles */
+
+.login {
+    margin: 10em auto 0 auto;
+    width: 400px;
+}
+
+.login form {
+    margin: 0 0 2.75em 0;
+}
+
+.login input, .login button {
+    color: #333;
+    font-family: verdana, sans-serif;
+    font-size: 1em;
+}
+
+.login input {
+    background-color: #ddd;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    box-sizing: border-box;
+    display: inline;
+    margin: 0 0 0 .5em;
+    padding: .5em;
+    width: 75%;
+}
+
+.login button {
+    background-color: #ddd;
+    border-radius: 2px;
+    border: none;
+    box-sizing: border-box;
+    margin: 0 0 .5em 0;
+    padding: .5em;
+    width: 100%;
+    
+}
+
+.login ul {
+    text-align: left;
+}
+
+.login a {
+    margin: 0 0 .5em 0;
+    display: inline-block;
+    padding: .5em;
+}
+
+.login a:hover {
+    text-decoration: underline;
+}
+
+.login p {
+    margin: 0 0 .5em 0;
+    padding: .5em;
+}
+
+.login label {
+    background-color: #eee;
+    border-radius: 2px;
+    box-sizing: border-box;
+    display: block;
+    margin: 0 0 .5em 0;
+    overflow: hidden;
+    padding: 0 0 0 .5em;
+    text-align: right;
+    width: 100%;
+}
