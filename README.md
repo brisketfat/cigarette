@@ -11,3 +11,6 @@ Predictable:
 
 ![rows](https://github.com/sinerasis/sharedimages/blob/master/cigarette/cigarette-rows.png)
 
+Accessible:
+
+Cigarette uses standard compliant HTML and CSS, including label tags!
